@@ -1,0 +1,1 @@
+cmd_/home/vb/os/v1/execmon/kmod/execmon.o := ld -m elf_x86_64 -z max-page-size=0x200000   -r -o /home/vb/os/v1/execmon/kmod/execmon.o /home/vb/os/v1/execmon/kmod/main.o /home/vb/os/v1/execmon/kmod/mem.o /home/vb/os/v1/execmon/kmod/syscalls.o /home/vb/os/v1/execmon/kmod/comm.o /home/vb/os/v1/execmon/kmod/proto.o /home/vb/os/v1/execmon/kmod/libudis86/built-in.o 

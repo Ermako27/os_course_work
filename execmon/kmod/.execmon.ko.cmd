@@ -1,0 +1,1 @@
+cmd_/home/vb/os/v1/execmon/kmod/execmon.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/vb/os/v1/execmon/kmod/execmon.ko /home/vb/os/v1/execmon/kmod/execmon.o /home/vb/os/v1/execmon/kmod/execmon.mod.o ;  true
